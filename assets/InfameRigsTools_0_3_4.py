@@ -4,17 +4,17 @@ bl_info = {
     "version": (0, 3, 4),
     "blender": (4, 0, 0),
     "location": "View3D > Sidebar > Infame Rig Tools",
-    "description": "Tools for rigging, with driver inversion and curve conversion.",
+    "description": "Tools for rigging.",
     "category": "Rigging",
 }
 
 import bpy
-import blf # <-- ERROR CORREGIDO: Módulo importado para dibujar texto.
+import blf 
 
 # ---- Property Group ----
 
 class InfameRigToolsProperties(bpy.types.PropertyGroup):
-    # --- Properties for Renaming ---
+   
     object_name: bpy.props.StringProperty(
         name="Object",
         description="Name of the object",
