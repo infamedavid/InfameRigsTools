@@ -22,10 +22,7 @@ A collection of tools for Riggers using Blender 4.x
   - Invert curve around x = 0.
   - Invert curve around the average of x.
 
-### 🔄 Convert Driver Curve
-- Switches driver function interpolation between **Linear** and **Constant**.
-
-### 🔀 Flip Driver Side
+###  Flip Driver Side
 - Flips left/right references in driver targets.
 - Works with:
   - `bone_target`
@@ -35,9 +32,12 @@ A collection of tools for Riggers using Blender 4.x
 - Does not rename objects, only flips the driver reference.
 - Accessed via right-click on a driven property.
 
+###  Convert Driver Curve
+- Switches driver function interpolation between **Linear** and **Constant**.
+
 ---
 
-## 🪜 Advanced Parenting
+##  Advanced Parenting
 
 ### ⚡ Live Parenting (Modal)
 - Enables progressive parenting interactively by selection order.
@@ -51,7 +51,7 @@ A collection of tools for Riggers using Blender 4.x
 
 ---
 
-## 📊 Addon Layout
+## Addon Layout
 - Tools are in the **3D View Sidebar** under the "Infame Rig Tools" tab.
 - Tools grouped by section:
   - Renaming Tools
